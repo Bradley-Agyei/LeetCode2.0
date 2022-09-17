@@ -68,13 +68,13 @@ public int[]buildArray(int[]nums) {
 
         int numsLength = nums.length;
 
-        for (int item = 0; item < numLength; item++){
+        for (int item = 0; item < numsLength; item++){
 
-            nums[item] = nums[item] + n * (nums[nums[item]]%n);
+            nums[item] = nums[item] + numsLength * (nums[nums[item]] % numsLength);
 
         }
 
-        for (int item = 0; i < numsLength; i++) {
+        for (int item = 0; item < numsLength; item++) {
             nums[item] /= numsLength;
         }
 

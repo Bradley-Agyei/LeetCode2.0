@@ -10,7 +10,6 @@ We could do this process iteratively. Start at looking at the first digit "B". A
 "BC" = (2)26 + 3
 "BCM" = (2(26) + 3)26 + 13
 
-if you expand this expression you will see it is identical to the example above :).
 */
 
 class Solution {
